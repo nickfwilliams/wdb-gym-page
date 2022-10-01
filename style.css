@@ -8,8 +8,9 @@ body {
   width: 100vw;
 }
 
+/*-- Header --*/
+
 header {
-  /* outline: 3px solid lime; */
   display: flex;
   height: 10vh;
   justify-content: space-between;
@@ -116,6 +117,8 @@ main p {
   transform: scale(1.02);
 }
 
+/*-- Footer --*/
+
 footer {
   display: flex;
   justify-content: center;
@@ -132,11 +135,15 @@ footer img {
 
 /*-- Media Queries -- */
 
+/* Smaller desktops */
+
 @media screen and (max-width: 950px) {
   .header-join-btn a {
     display: none;
   }
 }
+
+/* Tablets */
 
 @media screen and (max-width: 750px) {
   header {
@@ -154,6 +161,8 @@ footer img {
     height: 75vh;
   }
 }
+
+/* Phones */
 
 @media screen and (max-width: 520px) {
   header {
